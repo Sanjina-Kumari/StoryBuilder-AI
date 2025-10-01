@@ -7,7 +7,7 @@ A Java application that analyzes writing patterns from any text and generates ne
 StoryBuilder AI reads books or articles, learns how words connect, and then creates original content that mimics the writing style. It's like having a writing assistant that studies your favorite authors!
 
 # How It Works
-Learning Phase:
+## Learning Phase:
 
 - Reads source text (like "Emma" by Jane Austen)
 
@@ -15,7 +15,7 @@ Learning Phase:
 
 - Tracks which words typically follow other words
 
-# Generation Phase:
+## Generation Phase:
 
 - Starts with a sentence beginning
 
