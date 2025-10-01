@@ -107,8 +107,7 @@ Weird output? Try with a cleaner source text file
 
 **Built to demonstrate the power of data structures in creative applications**
 
-_What story will you build today?
-_
+_What story will you build today?_
 
 ## Developer
   Developed by Sanjina Kumari at Pacific Lutheran University.
