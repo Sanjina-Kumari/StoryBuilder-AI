@@ -17,13 +17,13 @@ Learning Phase:
 
 # Generation Phase:
 
-Starts with a sentence beginning
+- Starts with a sentence beginning
 
-Chooses each next word based on learned patterns
+- Chooses each next word based on learned patterns
 
-Creates coherent text that sounds like the original author
+- Creates coherent text that sounds like the original author
 
-Features
+# Features
 📖 Text Analysis: Learns from any book or document
 
 ✍️ Story Generation: Creates new content in the same style
@@ -34,75 +34,88 @@ Features
 
 🎯 Customizable Output: Control length and formatting
 
-Quick Start
-Prerequisites
-Java JDK 21+
+# Quick Start
+## Prerequisites
+- Java JDK 21+
+- A text file to analyze
 
-A text file to analyze
+# Basic Usage
 
-Basic Usage
-java
-public class Main {
-    public static void main(String[] args) {
-        StoryBuilderAI writer = new StoryBuilderAI("my_book.txt");
-        writer.generateStory(300); // Generate a 300-word story
+    public class Main {
+        public static void main(String[] args) {
+            StoryBuilderAI writer = new StoryBuilderAI("my_book.txt");
+            writer.generateStory(300); // Generate a 300-word story
+        }
     }
-}
-Analyze Word Patterns
-java
-// See the most common words in your text
-WordAnalyzer.main(new String[]{});
-Project Structure
-text
-StoryBuilderAI/
-├── src/
-│   ├── Main.java                    # Demo runner
-│   ├── StoryBuilderAI.java          # Main story generator
-│   ├── QuadraticProbingHashTable.java  # Custom hash map
-│   ├── WordAnalyzer.java            # Text analysis utility
-│   └── MapADT.java                  # Map interface
-├── stories/                         # Your text files here
-│   └── emma_jane_austen.txt
-└── README.md
-Example
-Input Text:
 
-text
-"It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
-Generated Story:
+# Analyze Word Patterns
 
-text
-"It is a truth well understood that a young woman of good family must be in search of proper companionship and the comforts of a established home with all the dignity that such situation affords to those who understand the importance of social standing in matters of the heart..."
-How to Use
-Add your text file to the project folder
+    // See the most common words in your text
+    WordAnalyzer.main(new String[]{});
 
-Run the generator with your filename
+# Project Structure
 
-Specify how many words you want to generate
+    StoryBuilderAI/
+    ├── src/
+    │   ├── Main.java                    # Demo runner
+    │   ├── StoryBuilderAI.java          # Main story generator
+    │   ├── QuadraticProbingHashTable.java  # Custom hash map
+    │   ├── WordAnalyzer.java            # Text analysis utility
+    │   └── MapADT.java                  # Map interface
+    ├── stories/                         # Your text files here
+    │   └── emma_jane_austen.txt
+    └── README.md
 
-Read your new story in the console output
+# Example
+## Input Text:
 
-Customization
-Adjust the story length by changing the number in generateStory()
+    "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife."
 
-Use different source texts to get different writing styles
+## Generated Story:
 
-Modify the word analysis to focus on specific patterns
+    "It is a truth well understood that a young woman of good family must be in search of proper companionship and the comforts of a established home with all the dignity that such situation affords to those who understand the importance of social standing in matters of the heart..."
 
-Technical Details
-Uses quadratic probing hash tables for efficient word storage
+# How to Use
+- Add your text file to the project folder
 
-Implements custom iterators for easy data access
+- Run the generator with your filename
 
-Handles large texts efficiently with optimized algorithms
+- Specify how many words you want to generate
 
-Need Help?
+- Read your new story in the console output
+
+# Customization
+- Adjust the story length by changing the number in generateStory()
+
+- Use different source texts to get different writing styles
+
+- Modify the word analysis to focus on specific patterns
+
+# Technical Details
+- Uses quadratic probing hash tables for efficient word storage
+
+- Implements custom iterators for easy data access
+
+- Handles large texts efficiently with optimized algorithms
+
+# Need Help?
 File not found? Make sure your text file is in the right folder
 
 Memory issues? Very large books might need more heap space
 
 Weird output? Try with a cleaner source text file
 
-Built to demonstrate the power of data structures in creative applications
+**Built to demonstrate the power of data structures in creative applications**
 
-What story will you build today?
+_What story will you build today?
+_
+
+## Developer
+  Developed by Sanjina Kumari at Pacific Lutheran University.
+ 
+  For questions or feedback, feel free to reach out at sanjinamandhwani1@gmail.com!
+
+## 📜 Acknowledgements
+Project inspired by coursework in **CSCI 270 at Pacific Lutheran University**.  
+
+Starter dataset and UML guidance provided by faculty.  
