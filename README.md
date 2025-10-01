@@ -15,7 +15,7 @@ Learning Phase:
 
 - Tracks which words typically follow other words
 
-Generation Phase:
+# Generation Phase:
 
 Starts with a sentence beginning
 
